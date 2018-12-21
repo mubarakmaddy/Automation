@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="0" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="105" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+      <class name="TestCases.Testcases.Admin.Login.VerifyGreytHRLogin">
+        <test-method status="FAIL" signature="launchApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="launchApplication" is-config="true" duration-ms="30" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/google/common/collect/ImmutableList]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableList
+at org.openqa.selenium.chrome.ChromeOptions.addArguments(ChromeOptions.java:124)
+at Library.BaseClass.launchGreytHRApplication(BaseClass.java:28)
+at TestCases.Testcases.Admin.Login.VerifyGreytHRLogin.launchApplication(VerifyGreytHRLogin.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableList
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="SKIP" signature="loginValidUsernameValidPassword()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="loginValidUsernameValidPassword" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/google/common/collect/ImmutableList]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableList
+at org.openqa.selenium.chrome.ChromeOptions.addArguments(ChromeOptions.java:124)
+at Library.BaseClass.launchGreytHRApplication(BaseClass.java:28)
+at TestCases.Testcases.Admin.Login.VerifyGreytHRLogin.launchApplication(VerifyGreytHRLogin.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableList
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidUsernameValidPassword -->
+        <test-method status="SKIP" signature="closeApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="SKIP" signature="launchApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="launchApplication" is-config="true" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="SKIP" signature="loginInvalidUsernameValidPassword()[pri:1, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="loginInvalidUsernameValidPassword" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/google/common/collect/ImmutableList]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableList
+at org.openqa.selenium.chrome.ChromeOptions.addArguments(ChromeOptions.java:124)
+at Library.BaseClass.launchGreytHRApplication(BaseClass.java:28)
+at TestCases.Testcases.Admin.Login.VerifyGreytHRLogin.launchApplication(VerifyGreytHRLogin.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableList
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUsernameValidPassword -->
+        <test-method status="SKIP" signature="closeApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="SKIP" signature="launchApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="launchApplication" is-config="true" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="SKIP" signature="loginValidUsernameInvalidPassword()[pri:2, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="loginValidUsernameInvalidPassword" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/google/common/collect/ImmutableList]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableList
+at org.openqa.selenium.chrome.ChromeOptions.addArguments(ChromeOptions.java:124)
+at Library.BaseClass.launchGreytHRApplication(BaseClass.java:28)
+at TestCases.Testcases.Admin.Login.VerifyGreytHRLogin.launchApplication(VerifyGreytHRLogin.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableList
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidUsernameInvalidPassword -->
+        <test-method status="SKIP" signature="closeApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="SKIP" signature="launchApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="launchApplication" is-config="true" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="SKIP" signature="loginInvalidUsernameInvalidPassword()[pri:3, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="loginInvalidUsernameInvalidPassword" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[com/google/common/collect/ImmutableList]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableList
+at org.openqa.selenium.chrome.ChromeOptions.addArguments(ChromeOptions.java:124)
+at Library.BaseClass.launchGreytHRApplication(BaseClass.java:28)
+at TestCases.Testcases.Admin.Login.VerifyGreytHRLogin.launchApplication(VerifyGreytHRLogin.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableList
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInvalidUsernameInvalidPassword -->
+        <test-method status="SKIP" signature="closeApplication()[pri:0, instance:TestCases.Testcases.Admin.Login.VerifyGreytHRLogin@553f17c]" name="closeApplication" is-config="true" duration-ms="0" started-at="2018-12-21T06:00:02Z" finished-at="2018-12-21T06:00:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- TestCases.Testcases.Admin.Login.VerifyGreytHRLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
